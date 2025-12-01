@@ -4,7 +4,7 @@ spring:
 
 gemini:
   api-key-header: "X-goog-api-key"
-  api-key-value: "AIzaSyBt4Da0SH9_sHjpdXH-tahFFkftJKbqEqQ"
+  api-key-value: "XXXXX"
   api-url: "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent"
   mime-type-jpeg: "image/jpeg"
   mime-type-png: "image/png"
