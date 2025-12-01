@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: ocr-using-apache-camel
+
+gemini:
+  api-key-header: "X-goog-api-key"
+  api-key-value: "AIzaSyBt4Da0SH9_sHjpdXH-tahFFkftJKbqEqQ"
+  api-url: "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent"
+  mime-type-jpeg: "image/jpeg"
+  mime-type-png: "image/png"
+  mime-type-pdf: "application/pdf"
+  response-mime-type-json: "application/json"
+  ocr-prompt: "Act as an OCR system. Extract all fields from this invoice and structure the data according to the provided JSON schema."
